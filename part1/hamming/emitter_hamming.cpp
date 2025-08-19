@@ -77,7 +77,7 @@ int main(){
          << "Codigo Hamming (SEC: Single-Error-Correcting), paridad par.\n"
          << "Corrige 1 bit y detecta 2 bits de error sin correccion.\n"
          << "Entrada esperada: cadena binaria (solo '0' y '1').\n" << RESET;
--
+         
     string msg;
     cout << YELLOW << "\nIngrese mensaje binario (solo 0/1): " << RESET << flush;
     if(!(cin >> msg)){
